@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300&display=swap');
+*{ padding: 0px; margin: 0px;}
+.navbar{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.links{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-family: 'Martian Mono','san-serif';
+    font-size: larger;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid black;
+    opacity: .5;
+    transition: .5s;
+   
+}
+.links a:hover{
+    opacity: .9;
+    font-size: 30px;
+    transition: .5s;
+}
+.rounded{border-radius: 5px;}
+.red{background-color: red; color: white;}
+.orange{background-color: orange; color: white;}
+.yellow{background-color: yellow;}
+.green{background-color: rgb(5, 190, 5);}
+.blue{background-color: rgb(0, 162, 255);}
